@@ -1,6 +1,6 @@
 cask "kuchu-puchu" do
-  version "0.13.0"
-  sha256 "cbd8e89f72548ffb765e05d720d55248f853ef90830c15d023190ffc5ce48bb5"
+  version "0.15.0"
+  sha256 "b48336789d9653a6bf878cbfbb495ba37bca13eb0efac75d172ce6eb2d821a89"
 
   url "https://kuchupuchu.me/Kuchu-Puchu-Mac-#{version}.dmg"
   name "Kuchu Puchu"
@@ -18,7 +18,7 @@ cask "kuchu-puchu" do
   depends_on arch: :arm64
   depends_on macos: :sonoma
 
-  app "Kuchu Puchu Native.app"
+  app "Kuchu Puchu.app"
 
   zap trash: [
     "~/Library/Application Support/com.kuchupuchu.native.studio",
