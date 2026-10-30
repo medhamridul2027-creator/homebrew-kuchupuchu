@@ -1,6 +1,6 @@
 cask "kuchu-puchu" do
-  version "0.15.0"
-  sha256 "b48336789d9653a6bf878cbfbb495ba37bca13eb0efac75d172ce6eb2d821a89"
+  version "0.15.1"
+  sha256 "f41ecbc0247da2e263391f67f54d2eee515eed3ab4d824704e10a7937d7a46ed"
 
   url "https://kuchupuchu.me/Kuchu-Puchu-Mac-#{version}.dmg"
   name "Kuchu Puchu"
