@@ -16,13 +16,13 @@ cask "kuchu-puchu" do
 
   auto_updates true
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Kuchu Puchu Native.app"
 
   zap trash: [
     "~/Library/Application Support/com.kuchupuchu.native.studio",
-    "~/Library/Preferences/com.kuchupuchu.native.studio.plist",
     "~/Library/Caches/com.kuchupuchu.native.studio",
+    "~/Library/Preferences/com.kuchupuchu.native.studio.plist",
   ]
 end
