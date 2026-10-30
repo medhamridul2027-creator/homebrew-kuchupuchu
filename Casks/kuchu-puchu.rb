@@ -1,3 +1,4 @@
+cask "kuchu-puchu" do
   version "0.12.0"
   sha256 "c8782f357d9bfcd05f63ba4547a55ef920cb1eb9a469767685f89292017669a1"
 
