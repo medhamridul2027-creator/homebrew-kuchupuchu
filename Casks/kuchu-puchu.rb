@@ -1,8 +1,8 @@
 # Homebrew cask (published in the tap https://github.com/medhamridul2027-creator/homebrew-kuchupuchu as Casks/kuchu-puchu.rb).
 # People run: brew tap medhamridul2027-creator/kuchupuchu && brew trust medhamridul2027-creator/kuchupuchu && brew install --cask kuchu-puchu
 cask "kuchu-puchu" do
-  version "0.16.0"
-  sha256 "41ff16327fc1265bf41343c3683a201a2c3b90288069cfff4cf965c89f208d64"
+  version "0.17.0"
+  sha256 "ccb9e8f7b2d29cc51f9eb499ba09e651ca6947b2ab95213e1bd74cd004051025"
 
   url "https://kuchupuchu.me/Kuchu-Puchu-Mac-#{version}.dmg"
   name "Kuchu Puchu"
